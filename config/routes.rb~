@@ -1,5 +1,14 @@
 Lajuanita::Application.routes.draw do
-  # The priority is based upon order of creation:
+  
+  root :to => 'home#index'
+  get 'home#historia'
+  get 'home#informacion'
+  get 'home#casa'
+  get 'home#multimedia'
+  get 'home#multimedia1'
+  get 'home#imagenes'
+  get 'home#luz'
+ # The priority is based upon order of creation:
   # first created -> highest priority.
 
   # Sample of regular route:
